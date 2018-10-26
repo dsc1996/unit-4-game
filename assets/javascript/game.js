@@ -7,9 +7,9 @@ var startGame = function(){
 
     $('.crystals').empty();
 
-    var images = ["../unit-4-game/assets/images/Red.png",
-    "../unit-4-game/assets/images/Magenta.png", "../unit-4-game/assets/images/Green.png", "../unit-4-game/assets/images/Blue.png",]
-
+    var images  = ["../unit-4-game/assets/images/Red.png",
+    "../unit-4-game/assets/images/Magenta.png", "../unit-4-game/assets/images/Green.png", "../unit-4-game/assets/images/Blue.png"];
+        
     random_result = Math.floor(Math.random() * 101) + 19;
 
     $("#result").html("Random Number: " + random_result);
@@ -26,8 +26,7 @@ var startGame = function(){
             });
             crystal.css ({
                 "background-image":"url('" + images[i] + "')",
-                "background-size":"200px",
-                "image-align": "center"
+                "background-size":"100px",
             })
 
         $(".crystals").append(crystal);
