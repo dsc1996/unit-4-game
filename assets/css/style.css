@@ -2,12 +2,20 @@
     display: flex;
     justify-content: space-around;
     margin: auto;
+    background-image: url(Pyramid.jpeg)
 }
 
 .crystal {
    border: 1px solid green;
    height: 100px;
    width: 100px;
+   background-color: blue;
 }
 
-
+html { 
+  background: url(Pyramid.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

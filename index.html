@@ -17,22 +17,36 @@
 </head>
 <body>
 
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid" style="background-color:blue; color:azure" >
         <div class="container">
             <h1 class="display-4"></h1>
             <h2 id="result" style="margin:auto; text-align:center;">Random Number: </h2>
         </div>
     </div>
-   
+<div class="container" style="background-color:blue; color:azure">
+    <div class="rules">
+        <h2 style="text-align:center">The Rules</h2>
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+</div>
+
+<div class="container">
     <div class="crystals">
          
     </div>
-
-    <p id="previous"></p>
+</div>
+<br>
+<div class="container" style="text-align:center; font-size:30px; top: -10px;">
+    <p id="previous">Total Score: </p>
     <p id="wins"></p>
     <p id="losses"></p>
+</div>
 
-    <script src="/Users/dustincrawford/github/unit-4-game/assets/javascript/game.js"></script>
+    <script src="../unit-4-game/assets/javascript/game.js"></script>
 </body>
 </html>
 
